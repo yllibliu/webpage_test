@@ -1,24 +1,23 @@
-//
 <html>
-<head>
-<title> The First Example: Hello, World </title>
-</head>
-<body>
-<h2> This line is HTML </h2>
+<head><title> The Second Example: Method and Property</title>
 
-<script language="JavaScript">
+<script>
 <!--
-document.write("Hello, World.This sentence is written using JavaScript.");
-// Text on the right of 2 slashes is comment
-/* This is comment
-that occur more than 1 line
-*/
+document.write("Document URL : " + document.URL + "<br>");
+document.write("Date of  last modified :" + document.lastModified + "<br>");
+document.write("Document Title: " + document.title + "<br>");
+document.write("The background color is " + document.bgColor
++ " and the text color is " + document.fgColor);
+document.fgColor = "yellow";
+document.bgColor = "black";
 //-->
 </script>
-<noscript>
-Sorry, but your browser doesn't run JavaScript.
-</noscript>
 
-<h2> This line is HTML </h2>
+</head>
+<body>
+<h2> The Second Example: Method and Property </h2>
+The text and background color have been changed
+because I modified the content of document.fgColor
+and document.bgColor .
 </body>
 </html>
